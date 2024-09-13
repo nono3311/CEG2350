@@ -1,13 +1,13 @@
 ## Lab 02
 
-- Name:
-- Email
+- Name: Arnold Hien
+- Email : hien.5@wright.edu
 
 ## Part 1 Answers
 
-1. Command & steps to create an SSH key pair:
-2. Steps to add public key to GitHub profile:
-3. git command to clone repository: 
+1. Command & steps to create an SSH key pair: first access your aws from your ubuntu by entering "ssh -i ./labsuser.pem ubuntu@184.73.100.164" then type "ssh-keygen -t ed25519" to create the SSH key pair.
+2. Steps to add public key to GitHub profile: enter "cd .ssh" and then view the public key by entering "cat id25519.pub" and copy it. Then go to your setting repository and add the key there.
+3. git command to clone repository: git clone git@github.com:WSU-kduncan/ceg2350f24-nono3311.git
 
 ## Part 2 Answers
 
